@@ -1,0 +1,24 @@
+header{
+	text-align: center;
+}
+
+#web_logo{
+	width: 20%;
+	height: 20%;
+}
+
+.console_logo{
+	height: 15px;
+	width: 15px;
+}
+#console_nav{
+	display: inline;
+	margin-left: 20px;
+}
+#login{
+	display: inline;
+	position: right;
+}
+#login a{
+	color: pink;
+}
