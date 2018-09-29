@@ -28,7 +28,7 @@ header{
 	margin-top: 30px;
 	text-align: center;
 }
-#cover_img{
+.cover_img{
 	height: 270px;
 	width: 200px;
 	margin-left: 15%;
@@ -37,7 +37,7 @@ header{
 	margin: 20px;
 	padding: 20px;
 }
-#game_box{
+.game_box{
 	margin: 5px;
 	padding: 10px;
 	display: inline-block;
@@ -45,7 +45,7 @@ header{
 	border-style: solid;
 	border-width: 1px;
 }
-#game_info{
+.game_info{
 	background-color: #ffe6cc;
 	padding: 10px;
 }
