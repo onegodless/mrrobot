@@ -6,19 +6,46 @@ header{
 	width: 20%;
 	height: 20%;
 }
+#header_bottom{
+	margin-top:20px;
+}
 
 .console_logo{
 	height: 15px;
 	width: 15px;
 }
 #console_nav{
-	display: inline;
-	margin-left: 20px;
 }
 #login{
 	display: inline;
-	position: right;
+	float:right;
+	margin-right: 20px;
 }
 #login a{
 	color: pink;
+}
+#searchbar{
+	margin-top: 30px;
+	text-align: center;
+}
+#cover_img{
+	height: 270px;
+	width: 200px;
+	margin-left: 15%;
+}
+#search_results{
+	margin: 20px;
+	padding: 20px;
+}
+#game_box{
+	margin: 5px;
+	padding: 10px;
+	display: inline-block;
+	width: 300px;
+	border-style: solid;
+	border-width: 1px;
+}
+#game_info{
+	background-color: #ffe6cc;
+	padding: 10px;
 }
