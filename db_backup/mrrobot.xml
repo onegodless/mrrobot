@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.3
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Oct 02, 2018 at 01:46 AM
+- Server version: 10.1.35-MariaDB
+- PHP Version: 7.2.9
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="mrrobot" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="ps4_games">
+                CREATE TABLE `ps4_games` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `name_db` text NOT NULL,
+                  `name` varchar(400) NOT NULL,
+                  `release_date` date NOT NULL,
+                  `genre` varchar(100) NOT NULL,
+                  `cover_img_link` varchar(350) NOT NULL,
+                  `price` decimal(10,2) unsigned NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `user_name` text NOT NULL,
+                  `password` text NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'mrrobot'
+    -->
+    <database name="mrrobot">
+        <!-- Table ps4_games -->
+        <table name="ps4_games">
+            <column name="id">1</column>
+            <column name="name_db">god_of_war</column>
+            <column name="name">God of War</column>
+            <column name="release_date">2018-05-14</column>
+            <column name="genre">action-adventure </column>
+            <column name="cover_img_link">/mrrobot/img/ps4/game_cover/god_of_war_ps4_cover.jpg</column>
+            <column name="price">54.45</column>
+        </table>
+        <table name="ps4_games">
+            <column name="id">2</column>
+            <column name="name_db">horizon_zero_dawn</column>
+            <column name="name">Horizon Zero Dawn</column>
+            <column name="release_date">2018-01-10</column>
+            <column name="genre">action role-playing</column>
+            <column name="cover_img_link">/mrrobot/img/ps4/game_cover/horizon_zero_dawn_ps4_cover.jpg</column>
+            <column name="price">48.98</column>
+        </table>
+        <table name="ps4_games">
+            <column name="id">3</column>
+            <column name="name_db">batman_arkham_knight</column>
+            <column name="name">Batman: Arkham Knight</column>
+            <column name="release_date">2015-11-23</column>
+            <column name="genre">action adventure</column>
+            <column name="cover_img_link">/mrrobot/img/ps4/game_cover/batman_arkham_knight_ps4_cover.jpg</column>
+            <column name="price">32.47</column>
+        </table>
+        <table name="ps4_games">
+            <column name="id">4</column>
+            <column name="name_db">batman_return_to_arkham</column>
+            <column name="name">Batman: Return to Arkham</column>
+            <column name="release_date">2016-10-18</column>
+            <column name="genre">action adventure</column>
+            <column name="cover_img_link">/mrrobot/img/ps4/game_cover/batman_return_arkham_ps4_cover.jpeg</column>
+            <column name="price">29.58</column>
+        </table>
+        <table name="ps4_games">
+            <column name="id">5</column>
+            <column name="name_db">batman_3</column>
+            <column name="name">Batman 3</column>
+            <column name="release_date">2018-09-19</column>
+            <column name="genre">third-person action</column>
+            <column name="cover_img_link">/mrrobot/img/ps4/game_cover/batman_arkham_knight_ps4_cover.jpg</column>
+            <column name="price">60.24</column>
+        </table>
+        <table name="ps4_games">
+            <column name="id">6</column>
+            <column name="name_db">batman_4</column>
+            <column name="name">Batman 4</column>
+            <column name="release_date">2018-09-07</column>
+            <column name="genre">third-person action</column>
+            <column name="cover_img_link">/mrrobot/img/ps4/game_cover/batman_arkham_knight_ps4_cover.jpg</column>
+            <column name="price">60.24</column>
+        </table>
+        <table name="ps4_games">
+            <column name="id">7</column>
+            <column name="name_db">batman_5</column>
+            <column name="name">Batman 5</column>
+            <column name="release_date">2018-09-30</column>
+            <column name="genre">third-person action</column>
+            <column name="cover_img_link">/mrrobot/img/ps4/game_cover/batman_arkham_knight_ps4_cover.jpg</column>
+            <column name="price">60.24</column>
+        </table>
+        <table name="ps4_games">
+            <column name="id">8</column>
+            <column name="name_db">batman_6</column>
+            <column name="name">Batman 6</column>
+            <column name="release_date">2018-09-01</column>
+            <column name="genre">third-person action</column>
+            <column name="cover_img_link">/mrrobot/img/ps4/game_cover/batman_arkham_knight_ps4_cover.jpg</column>
+            <column name="price">60.24</column>
+        </table>
+        <table name="ps4_games">
+            <column name="id">9</column>
+            <column name="name_db">batman_7</column>
+            <column name="name">Batman 7</column>
+            <column name="release_date">2018-09-13</column>
+            <column name="genre">third-person action</column>
+            <column name="cover_img_link">/mrrobot/img/ps4/game_cover/batman_arkham_knight_ps4_cover.jpg</column>
+            <column name="price">60.24</column>
+        </table>
+        <!-- Table users -->
+        <table name="users">
+            <column name="id">1</column>
+            <column name="user_name">jesus</column>
+            <column name="password">1234</column>
+        </table>
+        <table name="users">
+            <column name="id">2</column>
+            <column name="user_name">jose</column>
+            <column name="password">1234</column>
+        </table>
+        <table name="users">
+            <column name="id">3</column>
+            <column name="user_name">daniela</column>
+            <column name="password">1234</column>
+        </table>
+    </database>
+</pma_xml_export>
