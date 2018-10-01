@@ -1,5 +1,5 @@
 <?php 
-$mysqli = new mysqli('localhost', 'root', '1234', 'mrrobot');
+$mysqli = new mysqli('localhost', 'mrrobot', '1234', 'mrrobot');
 if (!$mysqli){
 	echo 'Cannot connect to db';
 };

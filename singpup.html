@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="script/validate_singup.js"></script>
+	</head>
+	<body>
+		<form method="post">
+			<fieldset>
+				<legend>Required information.</legend>
+				<label>Name:</label><br>
+				<input type="text" id="user_name" name="user_name" required><br>
+				<label>Password:</label><br>
+				<input type="password" name="user_psswd" required><br>
+				<label>Re-enter password:</label><br>
+				<input type="password" name="user_repasswd" required><br>
+				<button type="button" onclick="validate()">Send</button>
+			</fieldset>
+		</form>
+		<section id="answer">
+			
+		</section>
+	</body>
+
+</html>
+
+

@@ -1,0 +1,4 @@
+var xhtml = 
+function validate(){
+
+}
