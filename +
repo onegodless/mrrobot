@@ -1,7 +1,0 @@
-.console_logo{
-	height: 15px;
-	width: 15px;
-}
-nav{
-	display: inline;
-}
