@@ -1,7 +1,0 @@
-var xhtml = new  XMLHttpRequest();
-
-function validate(){
-	if(xhtml){
-
-	}
-}
