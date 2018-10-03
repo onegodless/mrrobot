@@ -8,17 +8,31 @@
 </head>
 <body>
 	<header>
-		<h1>Mr. Robot games</h1>
-		<img src="img/mr.robot_logo.jpeg" id="web_logo" alt="Mr. Robot logo">
+		<hgroup>
+			<h1>Mr. Robot games.</h1>
+			<h2>Your online game shop.</h2>
+		</hgroup>
+		<figure>
+			<img src="img/others/mrrobot_logo.jpeg" id="web_logo" alt="Mr. Robot logo">
+		</figure>
 		<section id="header_bottom">
 			<nav id="console_nav">
-				<a href="console/ps4"><img class="console_logo" src="img/console_log/ps4_logo.svg" alt="Playstation 4 logo.">PlayStation 4</a>
-				<a href="console/xbox1"><img class="console_logo" src="img/console_log/xbox_one_logo.png" alt="Xbox One logo.">Xbox One</a>
-				<a href="console/switch"><img class="console_logo" src="img/console_log/switch_logo.png" alt="Nintendo Switch logo.">Switch</a>
+				<a href="console/ps4"><img class="console_logo" src="img/console_icons/ps4_logo.png" alt="Playstation 4 logo.">PlayStation 4</a>
+				<a href="console/xbox1"><img class="console_logo" src="img/console_icons/xbox_one_logo.png" alt="Xbox One logo.">Xbox One</a>
+				<a href="console/switch"><img class="console_logo" src="img/console_icons/switch_logo.png" alt="Nintendo Switch logo.">Switch</a>
 			</nav>
 			<section id="login">
-				<a href="login.php">Login</a>
+				<a href="#" onclick="login()">Login</a>
 				<a href="singup.html">Sing-up</a>
+			</section>
+			<section id="login_box">
+				<form id="login_form" hidden>
+					<fieldset>
+						<legend>Login</legend>
+						<label>User Name: </label><input type="text" name="user_name" default="User Name"><br>
+						<label>Password: </label><input type="text" name="user_passwd" default="Password">
+					</fieldset>
+				</form>
 			</section>
 		</section>
 	</header>
@@ -32,7 +46,7 @@
 		<section id="search_results"></section>
 	</main>
 	<footer>
-		<p>Created by Jesus Christ 2018.</p>
+		<small>Created by &copyJesus Christ 2018.</small>
 	</footer>
 </body>
 </html>

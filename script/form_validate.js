@@ -1,4 +1,3 @@
-
 var xmlHtmlObject = createXmlHttpObject();
 
 function createXmlHttpObject(){
@@ -68,4 +67,9 @@ function check_form(){
 			console.log("xmlHtmlObject not created");
 		}
 	}
+}
+
+function login(){
+	var login_form = document.getElementById('login_form');
+	login_form.hidden=false;
 }
