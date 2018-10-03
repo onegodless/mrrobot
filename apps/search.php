@@ -7,7 +7,7 @@ if (!$mysqli){
 $user_search = $_GET["user_search"];
 $user_search = $user_search . '%';
 
-$sql = "SELECT name, cover_img_link FROM ps4_games WHERE name_db LIKE '$user_search'" ;
+$sql = "SELECT name, cover_img_link,price FROM ps4_games WHERE name_db LIKE '$user_search'" ;
 $query = $mysqli->query($sql);
 
 while ( $row = $query->fetch_assoc() ){

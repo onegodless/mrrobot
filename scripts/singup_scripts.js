@@ -25,7 +25,6 @@ function validateUserName(user_name_taken){
 		user_name_not_take = false;
 		user_name_syntax = false;
 	}
-
 }
 
 
@@ -49,7 +48,7 @@ function main(){
 
 	if(xhtml){
 
-		xhtml.open("GET", "srv_apps/check_singup.php?user_name=" + name, true);
+		xhtml.open("GET", "apps/singup.php?user_name=" + name, true);
 		xhtml.onreadystatechange = readyFunction;
 		xhtml.send();
 	}
