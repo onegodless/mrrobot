@@ -55,6 +55,21 @@ header{
 	background-color: #ffe6cc;
 	padding: 10px;
 }
+aside{
+	float: right;
+	font-style: oblique;
+	font-size: 10px;
+}
+	aside img{
+		width: 80px;
+		height: 80px;
+	}
+	aside figure{
+		text-align: center;
+	}
+	aside blockquote{
+		margin: 5px;
+	}
 footer{
 	text-align:center;
 }
